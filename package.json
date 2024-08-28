@@ -1,0 +1,26 @@
+{
+  "name": "atvdbackend",
+  "version": "1.0.0",
+  "description": "atvdDeCrudAPS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IvsonSantana/atvdbackendCrudAPS.git"
+  },
+  "author": "Ivson Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvsonSantana/atvdbackendCrudAPS/issues"
+  },
+  "homepage": "https://github.com/IvsonSantana/atvdbackendCrudAPS#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.0"
+  }
+}
